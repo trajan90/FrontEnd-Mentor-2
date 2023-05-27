@@ -226,5 +226,140 @@ footer img {
     margin-right: 10px;  
     width: 20px;
 
+}@media only screen and (max-width: 576px) {
+    h1 {
+        max-width: 98%;
+    }
+    p {
+        min-width: 80%;
+    }
+    
+   .nav_style .top_right {
+    padding-right: 0px;
+    display: block;
+    line-height: 150%;
+   }
+   .nav_style {
+    padding-left: 40px;
+    gap: 15%;    
+    justify-content: revert;
+   }
+   
+   .nav_style .logo {
+    padding-left: 0;
+   }
+   .section_one {
+    padding-left: 20px ;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+   }
+   .section_element {
+    padding-left: 0;
+   }
+   .section_one .section_element {
+    padding: auto;
+    max-width: 90%;
+   }   
+   .section_one img {
+    margin-top: 10%;
+    display: block;
+    min-width: 80%;
+   }
+   .input_btn{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+   }
+   .input_border{
+    width: 90%;
+    min-width: 90%;
+    height: 35px;
+   }
+   .button_style{
+    min-width: 90%;
+    width: 180px;
+    height: 35px;
+   }
+   .section_two {
+    
+    padding-top: 100px;
+    height: 95%;
+    padding-left: 0px 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 5;
+   }
+   .section_link{
+    margin-top: 20px;
+    
+   }
+   .section_link a img {
+    width: 20px;
+   }
+   .middle_curve{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 88px;
+    z-index: 2;
+   }
+   .section_two .section_element {
+    margin-top: 30%;
+    max-width: 89%;
+    padding-left: 20px;
+   }
+   .icon-quotes {
+    min-width: 94%;
+    min-height: 85%;
+    padding: 10px 10px 10px 20px;
+    margin: 0px;
+   }
+   .bottom-blue-para {
+    
+    gap:20px;
+    width:95%;
+   }
+   .section_three {
+    min-width: 95%;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+   }
+   .section_three h1 {
+    margin: 0;
+
+   }
+   .section_three p {    
+    min-width: 97%;
+    
+   }
+   .img_style {
+    width: 70%;
+   }
+   .section_three .input_border {
+    width: min-content;
+   }
+   .footer_lists{
+    justify-content: space-between;
+    padding-right: 0px;
+    gap: 10px;
+   }
+   .footer_style {
+    padding: 20px;
+   }
+   .footer_lists .footer_list_style{
+    gap:10px;
+    padding:0;   
+   }
+   .social_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+   }
 }
 
